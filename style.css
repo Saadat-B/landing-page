@@ -21,15 +21,17 @@ body{
 #header{
     display: flex;
     flex-flow: column nowrap;
-    height: 400px;
+    height: 500px;
     background-color: #1f2937;
     color: #f9faf8;
+    
 }
 
 /* NAVBAR */
 
 #navbar{
     display: flex;
+    flex-flow: row nowrap;
     justify-content: flex-end;
     gap: 24px;
     padding: 20px 200px;
@@ -44,4 +46,60 @@ body{
     text-decoration: none;
     color: #e5e7ebd8;
     font-size: 18px;
+}
+
+
+/* HERO */
+
+#hero{
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    padding: 100px 130px;
+    
+}
+
+
+#hero-left{
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    width: 500px;
+
+}
+
+#hero-left > h3{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#hero-left > p{
+    color: #e5e7ebd8;
+    font-size: 18px;
+}
+
+
+#hero-right{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 600px;
+    background-color: grey;
+    margin-right: 100px;
+}
+
+#hero-btn{
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 1px 15px;
+    margin: 10px 0px;
 }
